@@ -1,9 +1,4 @@
-const data = require("../Store/data")
 const productModel = require("../Models/productModel")
-
-const Controller =(req,res) => {
-    return res.send(data)
-}
 
 const addProduct = async(req,res) => {
     try{
@@ -753,4 +748,56 @@ const finddata = async(req, res) => {
     res.send (find)
 }
 
-module.exports = {Controller, addProduct, finddata};
+const findProduct = async(req, res) => {
+    try {
+        const search = req.body.search;
+        console.log(req.body.search);
+        const searching = await productModel.find({
+          Name: { $regex: new RegExp(search, "i") }, // "i" for case-insensitive search
+        });
+        console.log(search);
+        if (searching.length > 0) {
+          return res
+            .status(200)
+            .json({ success: true, msg: "Product details", data: searching });
+        } else {
+          return res.status(404).json({ msg: "No matching products found" });
+        }
+      } catch (error) {
+        console.error(error);
+        return res.status(500).json({ msg: "Internal server error" });
+      }
+}
+
+const addcart = async (req, res) => {
+    try {
+      const token = req.header("authorization");
+      const item = req.body;
+      const user_email = req.email;
+      const temp = {
+        userEmail: user_email,
+        cart: [{ ...item, id: item._id }],
+      };
+  
+      const existCart = await cart.findOne({ userEmail: user_email });
+      console.log("exist cart ========================================",existCart);
+      if (existCart) {
+        const updatecart = await cart.findOneAndUpdate(
+          { userEmail: user_email },
+          { $push: { cart: { ...item, userEmail: user_email, id: item._id } } },
+          {new : true}
+        );
+      } else {
+        const newcart = await new cart({...temp});
+        console.log("new cart", await newcart.save());
+       
+      }
+      res.send({ token: token, item: item,msg:"added to cart successfully"});
+    } catch (err) {
+      console.log({ error: err });
+      res.send({ error: err });
+    }
+  };
+
+
+module.exports = {addProduct, finddata, findProduct, addcart};

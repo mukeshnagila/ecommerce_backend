@@ -40,6 +40,14 @@ const register = async(req,res) => {
     }
 }
 
+const getUserList = async (req, res) => {
+    try {
+      const userList = await userAccount.find();
+      res.send({ users: userList });
+    } catch (err) {
+      res.status(500).send({ message: 'Error fetching user list', error: err });
+    }
+  };
 
 const Login = async(req, res) => {
     const logindata = req.body;
@@ -64,4 +72,4 @@ const Login = async(req, res) => {
     }
 }
 
-module.exports = { register, Login };
+module.exports = { register, Login, getUserList };
