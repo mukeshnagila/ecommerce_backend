@@ -1,5 +1,5 @@
-const authmiddleware = require("../Auth/middleware");
-const { addProduct, finddata, addcart, findProduct} = require("../Controllers/Controller");
+const authMiddleware = require("../Auth/middleware");
+const { addProduct, finddata, addcart, findProduct, finduser} = require("../Controllers/Controller");
 const { register, Login, getUserList } = require("../Controllers/signupLogin");
 
 const routing = require("express").Router();
@@ -13,8 +13,10 @@ const routing = require("express").Router();
     
     routing.get("/findProduct", finddata)
 
+    routing.get("/finduser", finduser)
+
     routing.post("/finditem", findProduct)
 
-    routing.post("/addcart", authmiddleware, addcart)
+    routing.post("/addcart",authMiddleware, addcart)
 
 module.exports = routing;

@@ -724,6 +724,277 @@ const data = [
         "price": 345,
         "oldprice": 555,
         "discr": "Warranty :- 1 Year Warranty On Manufacturing Defects. 100% Quality Assured., Dimensions (In Inches) :- 8 Tall X 9 Wide X 4 Deep, Compartments :- 1 Zip Compartmenat And Front Zip Pocket, Material :-100% PU | Colour :- Maroon, Outer Material Type: Polyurethane; Closure Type: Zipper"
+    },
+
+    /////////////////////////// 14 Nov 2023 /////////////////////////
+    
+    ////--------LAPTOPS-----------///////
+    {
+        "id" : 64,
+        "category" : "electronic",
+        "subcategory" : "Laptop",
+        "minicategory" : "Apple",
+        "name" : "Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage",
+        "image" : "https://m.media-amazon.com/images/I/71vFKBpKakL._SX466_.jpg",
+        "price" : 84990,
+        "oldprice" : 99000,
+        "discr" : "All-Day Battery Life – Go longer than ever with up to 18 hours of battery life. Powerful Performance – Take on everything from professional-quality editing to action-packed gaming with ease. The Apple M1 chip with an 8-core CPU delivers up to 3.5x faster performance than the previous generation while using way less power. Superfast Memory – 8GB of unified memory makes your entire system speedy and responsive. That way it can support tasks like memory-hogging multitab browsing and opening a huge graphic file quickly and easily. Stunning Display – With a 13.3-inch/33.74 cm Retina display, images come alive with new levels of realism. Text is sharp and clear, and colors are more vibrant. Why Mac – Easy to learn. Easy to set up. Astoundingly powerful. Intuitive. Packed with apps to use right out of the box. Mac is designed to let you work, play, and create like never before"
+    },
+    {
+        "id": 65,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Apple",
+        "name": "Apple 2020 MacBook Pro (13.3-inch/33.78 cm, M1 chip with 8‑core CPU and 8‑core GPU, ",
+        "image": "https://m.media-amazon.com/images/I/313CFbI-YjL._SY445_SX342_QL70_FMwebp_.jpg",
+        "price": 79900,
+        "oldprice": 85000,
+        "discr": "Apple-designed M1 chip for a giant leap in CPU, GPU, and machine learning performance. Get more done with up to 20 hours of battery life, the longest ever in a Mac. 8-core CPU delivers up to 2.8x faster performance to fly through workflows quicker than ever. 8-core GPU with up to 5x faster graphics for graphics-intensive apps and games. 16-core Neural Engine for advanced machine learning. 8GB of unified memory so everything you do is fast and fluid. Superfast SSD storage launches apps and opens files in an instant"
+    },
+    {
+        "id": 66,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Apple",
+        "name": "Apple 2021 MacBook Pro (14-inch/35.97 cm, M1 Pro chip with 8‑core CPU and 14‑core GPU",
+        "image": "https://m.media-amazon.com/images/I/3187i1nSVTL._SY445_SX342_QL70_FMwebp_.jpg",
+        "price": 90000,
+        "oldprice": 100000,
+        "discr": "Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU, and machine learning performance. Up to 10-core CPU delivers up to 3.7x faster performance to fly through pro workflows quicker than ever. Up to 32-core GPU with up to 13x faster performance for graphics-intensive apps and games. 16-core Neural Engine for up to 11x faster machine learning performance. Longer battery life, up to 17 hours. Up to 64GB of unified memory so everything you do is fast and fluid. Up to 8TB of super-fast SSD storage launches apps and opens files in an instant"
+    },
+    {
+        "id": 67,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Apple",
+        "name": "Apple 2021 MacBook Pro (16-inch/41.05 cm, M1 Pro chip with 10‑core CPU and 16‑core GPU",
+        "image": "https://m.media-amazon.com/images/I/31jA5LDJdoL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 100000,
+        "oldprice": 105000,
+        "discr": "Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU, and machine learning performance. Up to 10-core CPU delivers up to 2x faster performance to fly through pro workflows quicker than ever. Up to 32-core GPU with up to 4x faster performance for graphics-intensive apps and games. 16-core Neural Engine for up to 5x faster machine learning performance. Longer battery life, up to 21 hours. Up to 64GB of unified memory so everything you do is fast and fluid. Up to 8TB of super-fast SSD storage launches apps and opens files in an instant"
+    },
+    {
+        "id": 68,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Apple",
+        "name": "Apple 2023 MacBook Pro Laptop M2 Max chip with 12‑core CPU and 30‑core GPU:",
+        "image": "https://m.media-amazon.com/images/I/31sIpThZU+L._SX342_SY445_.jpg",
+        "price": 120000,
+        "oldprice": 130000,
+        "discr": "SUPERCHARGED BY M2 PRO OR M2 MAX — Take on demanding projects with the M2 Pro or M2 Max chip. M2 Pro has up to 12 CPU cores, up to 19 GPU cores, and up to 32GB unified memory. M2 Max has 12 CPU cores, up to 38 GPU cores, and up to 96GB unified memory. UP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in. FULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favorite iPhone and iPad apps. BEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content, and pro reference modes for doing your best work on the go"
+    },
+    {
+        "id": 69,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Apple",
+        "name": "Apple 2023 MacBook Pro (14-inch, M3 chip with 8‑core CPU and 10‑core GPU,",
+        "image": "https://m.media-amazon.com/images/I/61YCWzjldDL._SX522_.jpg",
+        "price": 189900,
+        "oldprice": 200000,
+        "discr": "SUPERCHARGED BY M3 — With an 8-core CPU and 10-core GPU using hardware-accelerated ray tracing, the Apple M3 chip can help you blaze through everyday multitasking and take on pro projects like editing thousands of photos or 4K video. UP TO 22 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of Apple silicon. MacBook Pro delivers the same exceptional performance whether it’s running on battery or plugged in. RESPONSIVE UNIFIED MEMORY AND STORAGE — Up to 24GB of unified memory makes everything you do fast and fluid. Up to 2TB of superfast SSD storage launches apps and opens files in an instant. BRILLIANT PRO DISPLAY — The 35.97 cm (14.2″) Liquid Retina XDR display features Extreme Dynamic Range; 1,000 nits of sustained brightness for stunning HDR content; up to 600 nits of brightness for SDR content; and pro reference modes for doing your best work on the go."
+    },
+    {
+        "id": 70,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer Aspire 5 Gaming Laptop Intel Core i5 12th gen (16 GB/512 GB SSD/Win11 Home/4GB Graphics/RTX 2050) ",
+        "image": "https://m.media-amazon.com/images/I/41T5vxK+AWL._SY300_SX300_.jpg",
+        "price": 52990,
+        "oldprice": 60000,
+        "discr": "Acer Aspire 5 Gaming laptop is powered by the latest 12th Gen Intel Core i5 processor consisting of 12 cores for multitasking and productivity, TX It's On : NVIDIA GeForce RTX 2050 - 4G-GDDR6 laptops deliver ray tracing and cutting-edge AI features. The RTX 2050 also works seamlessly with NVIDIA Optimus technology to give you the perfect balance between long battery life and optimum performance. Over 150 top games and applications use RTX to deliver realistic graphics or cutting-edge new AI features like NVIDIA DLSS and NVIDIA Broadcast. RTX is the new standard."
+    },
+    {
+        "id": 71,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer One 14 AMD Ryzen 3 3250U Processor (8GB RAM/512GB SSD/AMD Radeon Graphics/Windows 11 Home)",
+        "image": "https://m.media-amazon.com/images/I/71NKq8zV8ML._SY355_.jpg",
+        "price": 24990,
+        "oldprice": 30000,
+        "discr": "AMD Dual Core CPU : AMD Ryzen 3 3250U Processor (Base Frequency at 2.60GHz, Up to 3.50GHz at Maximum Boost Clock, 2 Cores, 4MB Cache, 4 Threads). The perfect combination of performance, power consumption, and value helps your device run smoothly. AMD Radeon Graphics, 14 Smooth and Clear Display : 14 HD (‎1366 X 768) Display, 16:9 aspect ratio and narrow bezels enjoy your photos, movies, and games with the crisp quality."
+    },
+    {
+        "id": 72,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer Aspire Lite 11th Gen Intel Core i3 Premium Metal Laptop (8GB RAM/512GB SSD/Windows 11 Home) ",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41VMW5Dw5KL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 28990,
+        "oldprice": 35000,
+        "discr": "Powerful Productivity: 11th Generation Intel Core i3-1115G4 Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.1GHz for your high-demand applications. Connectivity Technology: Wi-Fi, Bluetooth, HDMI, Visibly Stunning: Experience sharp details and crisp colors on the 15.6 Full HD display, 16:9 aspect ratio, ultra-slim design and narrow bezels."
+    },
+    {
+        "id": 73,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer Aspire 3 Laptop AMD Ryzen™ 3 7320U Quad-Core Processor (8 GB/512 GB SSD/Windows 11 Home) ",
+        "image": "https://m.media-amazon.com/images/I/41rwlkAbySL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 26990,
+        "oldprice": 30000,
+        "discr": "New Ryzen Processor: AMD Ryzen 3 7320U with Base Clock 2.4 GHz and Max Boost Clock 4.1 GHz. With AMD Radeon Graphics.,Internal Specifications: Single-channel LPDDR5 SDRAM support, 8 GB of onboard LPDDR5 system memory,Display: 15.6 FHD 1920 x 1080, high-brightness Acer ComfyView LED-backlit TFT LCD, 16:9 aspect ratio, Ultra-slim design, Mercury free, environment friendly"
+    },
+    {
+        "id": 74,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer Extensa 15 Intel Core i3 N305 8 core Processor (Windows 11 Home/8 GB/512 GB SSD/Intel UHD Graphics)",
+        "image": "https://m.media-amazon.com/images/I/41T8jSlSfSL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 27990,
+        "oldprice": 35000,
+        "discr": "The New Intel N305 Series: Intel Core i3 8-core N305 Processor with Intel UHD Graphics. Max Turbo Frequency - 3.80 GHz,Internal Specifications: Single-channel LPDDR5 SDRAM support 8 GB of onboard LPDDR5 system memory., Display: 15.6 Full HD 1920 x 1080, high-brightness Acer ComfyView LED-backlit TFT LCD, 16:9 aspect ratio, Ultra-slim design, Mercury free, environment friendly"
+    },
+    {
+        "id": 75,
+        "category": "electronic",
+        "subcategory": "Laptop",
+        "minicategory": "Acer",
+        "name": "Acer Nitro V Gaming Laptop 13th Gen Intel Core i5-13420H with RTX 4050 Graphics 6GB VRAM, 144Hz Display (16GB DDR5/512GB SSD/Windows 11 Home/Wi-Fi 6),15.6(39.6cms)",
+        "image": "https://m.media-amazon.com/images/I/31gZSptUk1L._SY300_SX300_QL70_FMwebp_.jpg",
+        "price": 74000,
+        "oldprice": 85000,
+        "discr": "Processor: Intel Core i5-13420H processor - 8 cores, max turbo up to 4.60 Ghz | RAM : 16 GB of DDR5 system memory, upgradable to 32 GB (Memory Frequency: Up to 5200 MT/s), Display : 15.6 display with IPS (In-Plane Switching) technology, Full HD 1920 x 1080, Acer ComfyView LED-backlit TFT LCD, 16:9 aspect ratio, supporting 144 Hz refresh rate"
+    },
+
+    /////// Watches //////////
+
+    {
+        "id": 76,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack Analog Unisex-Adult Watch",
+        "image": "https://m.media-amazon.com/images/I/71qE+ZnDFTL._SX425_.jpg",
+        "price": 699,
+        "oldprice": 1000,
+        "discr": "Fastrack, Fastrack Guys, Fastrack Men, fashion, everyday wear, daily wear, guys watches, stylish, fashionable watch, trendy, silicon strap, silicon watch, Titan Co Ltd No, Titan Co Ltd No -03 Sipcot INdustries Complex Hosur 635126"
+    },
+    {
+        "id": 77,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack Limitless FS1 Pro Smart Watch|1.96 Super AMOLED Arched Display with 410x502 Pixel",
+        "image": "https://m.media-amazon.com/images/I/41A5cMa-iOL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 2699,
+        "oldprice": 3000,
+        "discr": "1.96 Super AMOLED Arched Display with Always On Display and is ready to style your wrist with bright pixel resolution for a sharper experience and brand new amazing colours, SingleSync BT Calling with Favourite Contacts storage (Android - 100, iOS - 50) and Quick Replies (Android), Advanced 110+ Sports Modes, 200+ Watchfaces, In-Built Games, AI Voice Assistant and many more handy features at a single tap"
+    },
+    {
+        "id": 78,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack Black Dial Analog Watch For Men -NR38051SM07",
+        "image": "https://m.media-amazon.com/images/I/51EiXZQZcJL._SX679_.jpg",
+        "price": 1995,
+        "oldprice": 2500,
+        "discr": "dial color: black, case shape: round, dial glass material: mineral, band color: silver, band material: stainless steel, watch movement type: quartz, watch display type: analog, water resistance depth: 50 meters. Lock Mechanism: Deployment Clasp"
+    },
+    {
+        "id": 79,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack New Limitless Glide Advanced UltraVU HD Display|BT Calling|ATS Chipset|100+",
+        "image": "https://m.media-amazon.com/images/I/41HLMvalT6L._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 1699,
+        "oldprice": 2000,
+        "discr": "UltraVU HD Display with Bright Pixel Resolution and is available in brand new amazing colours, SingleSync BT Calling | Favourite Contacts Storage | Quick Replies (Android) | Advanced Chipset for zero lags, faster processing and higher accuracy, AI Voice Assistant | Calculator | Calendar | In-Built Games | IP68 Water Resistance | Fastrack Reflex World App | Auto Stress Monitor | 24x7 HRM | SpO2 | Sleep Monitor with REM Sleep"
+    },
+    {
+        "id": 80,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack Reflex Play|1.3” AMOLED Display Smart Watch with AOD|Premium Metallic Body|",
+        "image": "https://m.media-amazon.com/images/I/61IMrFbKBxL._SX569_.jpg",
+        "price": 3495,
+        "oldprice": 5000,
+        "discr": "[Large AMOLED Display] An immersive 1.3-inch AMOLED display that brings an awesome optical quality. Case Length(6H-12H) 44.5 mm. Case Width(3H-9H) 44.5 mm;[Built-in Games] Built-in games for the player in you., [Complete Health Suite] With Blood Pressure Monitor, 24 X7 Heart rate monitor, SPO2 (Blood Oxygen Level) Tracker and Women's Health tracker.;[Sleep Monitoring] Let the watch keep a check on your sleep health with an active sleep monitor"
+    },
+    {
+        "id": 81,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Fastrack",
+        "name": "Fastrack Fastfit Analog Black Dial Men's Watch-3224NL01/NR3224NL01",
+        "image": "https://m.media-amazon.com/images/I/71TT5rePw+L._SY679_.jpg",
+        "price": 4750,
+        "oldprice": 6000,
+        "discr": "Case Diameter: 44.5 Millimeters; Dial Window Material Type: Mineral; Band Width: 22.0; Case Material Type: Brass; Item Shape: Round; Water Resistance Depth: 50.0 Meters; Calendar Type: Day-Date; Department Name: Mens; Target Gender: Male; Clasp Type: Regular, Warranty: 2 Years, High precision quartz analogue movement., Stainless steel back cover, 5 ATM/50 m Water resistance..."
+    },
+    {
+        "id": 82,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise Newly Launched Mettalix: 1.4 HD Display with Metallic Straps and Stainless Steel Finish, BT Calling,",
+        "image": "https://m.media-amazon.com/images/I/41BObHUf2aL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 2499,
+        "oldprice": 3000,
+        "discr": "BT calling powered by Tru SyncTM -  Stay connected with everything that matters thanks to seamless BT calling powered by our exclusive Tru SyncTM technology for faster, more stable connections., Stainless steel finish - Elegant design meets durability in the best of ways with a stainless steel finish., Noise Health SuiteTM - Keep an eye on your everyday health with an in-built heart rate monitor, SpO2 tracker, sleep tracker, stress monitor and  female cycle tracker"
+    },
+    {
+        "id": 83,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise Force Rugged & Sporty 1.32 Bluetooth Calling Smart Watch",
+        "image": "https://m.media-amazon.com/images/I/519qCLoSPjL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 1999,
+        "oldprice": 2500,
+        "discr": "Sporty & rugged design: Featuring an impact-resistant build, the smartwatch is designed to be sporty and rugged., Bluetooth calling: Live hands-free by making calls directly from your wrist. You can access the dial pad, check your call logs and save 5 contacts on the watch., Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Breathing practice & Female cycle tracker."
+    },
+    {
+        "id": 84,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise Twist Round dial Smart Watch with Bluetooth Calling, 1.38 TFT Display, up-to 7 Days Battery, ",
+        "image": "https://m.media-amazon.com/images/I/41Hr4Mn6pCL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 1399,
+        "oldprice": 2000,
+        "discr": "Tru SyncTM: Hassle-free pairing, stable connectivity and lower battery consumption combine to provide the most advanced calling experience., Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker., Up to 7-day battery: Breeze through an entire week without charging with up to 7 days of battery life. Get up to 2 days of battery life when calling in enabled"
+    },
+    {
+        "id": 85,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise ColorFit Pulse Smartwatch with 3.55cm (1.4) Full Touch Display, SpO2, Heart Rate, Sleep Monitors &",
+        "image": "https://m.media-amazon.com/images/I/41XH-IpxCQL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 1499,
+        "oldprice": 2199,
+        "discr": "[Noise Health Suite]: Automatically monitor your blood oxygen (Spo2 levels), real-time heart rate, and provide comprehensive analysis of your sleep quality (deep sleep,light sleep and wake up time) on this smart watch., [Personalise your look]: Choose from 60+ cloud-based watch faces or customise them as per your preference."
+    },
+    {
+        "id": 86,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, ",
+        "image": "https://m.media-amazon.com/images/I/417I63FbcYL._SX300_SY300_QL70_FMwebp_.jpg",
+        "price": 1499,
+        "oldprice": 2000,
+        "discr": "150+ cloud-based watch faces: A new day calls for a new face. With 4 default watch faces in the watch, replace to choose from over 150+ watch faces options available in App and don a new look every day., Noise Health Suite: Get started on your fitness journey with a whole range of wellness features in Noise Health Suite and 100 sports modes to support you."
+    },
+    {
+        "id": 87,
+        "category": "electronic",
+        "subcategory": "Watch",
+        "minicategory": "Noise",
+        "name": "Noise ColorFit Pro 4 Alpha 1.78 AMOLED Display, Bluetooth Calling Smart Watch, Functional Crown, Metallic Build, Intelligent",
+        "image": "https://m.media-amazon.com/images/I/61jOliJK5CL._SY450_.jpg",
+        "price": 2000,
+        "oldprice": 2500,
+        "discr": "Always on Display: Take your pick from a plethora of Always On Display watch faces and see your day unfold., Functional crown: Navigate your way through a series of features with ease, thanks to the fully functional digital crown., Tru Sync: Get the best-in-class calling experience with the Tru Sync feature that ensures a stable and fast connection every single time."
     }
 
 ]

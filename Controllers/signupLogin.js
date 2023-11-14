@@ -61,7 +61,7 @@ const Login = async(req, res) => {
       if(validate){
           const token = jwt.sign({email: logindata.email}, secret_key,{expiresIn:"1d"})/// for genrating jwt token
           console.log(token);
-          return res.send({message: "user logged in successfully", token: token})
+          return res.send({message: "user logged in successfully", token: token ,userId: user._id})
       }else{
           return res.send({message: "User is not correct. Please enter the correct details"})
       }

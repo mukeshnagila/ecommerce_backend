@@ -20,7 +20,8 @@ const userSchema = mongoose.Schema({
     address:{
         type: String,
         required: true
-    }
+    },
+    cart: [{type: mongoose.Schema.ObjectId, ref : "allProducts"}]
 })
 
 const userAccount = mongoose.model("userAccount", userSchema)
