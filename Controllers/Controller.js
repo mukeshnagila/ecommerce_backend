@@ -751,10 +751,43 @@ const finddata = async(req, res) => {
     res.send (find)
 }
 
-const finduser = async(req, res) => {
-    const find = await userModel.find({});
-    console.log(find);
-    res.send (find)
+// const finduser = async(req, res) => {
+//     const find = await userModel.findOne({});
+//     console.log(find);
+//     res.send (find)
+// }
+  const finduser = async (req, res) => {
+      const user = req.user;
+      if (user && user.email) {
+          try {
+            const userDetails = await userModel.findOne({ email: user.email });
+            if (userDetails) {
+              res.send(userDetails);
+            } else {
+              res.status(404).send("User not found");
+            }
+          } catch (error) {
+            console.error("Error fetching user details:", error);
+            res.status(500).send("Internal Server Error");
+          }
+      } else {
+          res.status(401).send("Unauthorized");
+      }
+  };
+
+  
+const searchProduct = async (req, res) => {
+  const searchItem = req.query.searchItem;
+  try {
+      const result = await productModel.find({
+        // category: { $regex: searchItem, $options: "i" },
+          name: { $regex: searchItem, $options: "i" }
+      })
+      res.send(result);
+  }
+  catch (err) {
+      console.log("Error in searching data:", err);
+  }
 }
 
 const findProduct = async(req, res) => {
@@ -852,4 +885,4 @@ const addcart = async (req, res) => {
   
 
 
-module.exports = {addProduct, finddata, findProduct, addcart, finduser};
+module.exports = {addProduct, finddata, findProduct, addcart, finduser, searchProduct};
