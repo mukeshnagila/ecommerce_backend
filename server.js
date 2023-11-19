@@ -2,7 +2,9 @@ const express = require("express");
 const cors = require("cors");
 const routing = require("./Routes/routing");
 const connectToDatabase = require("./Config/db");
+// const payment_route = require("./Routes/paymentsRoute");
 // const connectToDatabase = require("./Config/db");
+// require("dotenv").config();
 
 const app = express();
 
@@ -11,6 +13,7 @@ app.use(cors({
     origin: "*"
 }))
 app.use("/api", routing)
+// app.use("/api", payment_route)
 app.get("/", (req, res)=>{
     res.send("Home Page");
     console.log("Home Page");
