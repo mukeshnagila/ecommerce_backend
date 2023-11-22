@@ -1,25 +1,55 @@
-// middleware.js
-const jwt = require('jsonwebtoken');
-const secret_key = 'Mukesh';
+
+const jwt = require("jsonwebtoken");
+const secret_key = "Mukesh";
 
 const authMiddleware = (req, res, next) => {
-  const token = req.headers['authorization'];
-
-  if (!token) {
-    return res.status(403).json({ code: 403, message: 'Forbidden - Token not provided' });
-  }
-
-  try {
-    const token2 = token.split(" ")[1];
-    const decoded = jwt.verify(token2, secret_key);
-    req.user = decoded; // Attach user information to the request object
-    next();
-  } catch (error) {
-    return res.status(403).json({ code: 403, message: 'Forbidden - Invalid token' });
-  }
+    const BearerToken = req.headers["authorization"];
+    console.log("this is bearer", BearerToken);
+    if (BearerToken) {
+        const token = BearerToken.split(" ")[1];
+        try {
+            const validate = jwt.verify(token, secret_key);
+            if (validate) {
+                req.user = validate;
+                next();
+            } else {
+                console.log("User not authorized!");
+            }
+        } catch (error) {
+            console.log("Error In Verify Token:", error.message);
+            console.log("User not authorized!");
+        }
+    }
+    else {
+        console.log("User not allowed!");
+    }
 };
 
 module.exports = authMiddleware;
+
+
+// middleware.js
+// const jwt = require('jsonwebtoken');
+// const secret_key = 'Mukesh';
+
+// const authMiddleware = (req, res, next) => {
+//   const token = req.headers['authorization'];
+
+//   if (!token) {
+//     return res.status(403).json({ code: 403, message: 'Forbidden - Token not provided' });
+//   }
+
+//   try {
+//     const token2 = token.split(" ")[1];
+//     const decoded = jwt.verify(token2, secret_key);
+//     req.user = decoded; // Attach user information to the request object
+//     next();
+//   } catch (error) {
+//     return res.status(403).json({ code: 403, message: 'Forbidden - Invalid token' });
+//   }
+// };
+
+// module.exports = authMiddleware;
 
 
 

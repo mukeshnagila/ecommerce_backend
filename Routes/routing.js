@@ -19,6 +19,6 @@ const routing = require("express").Router();
 
     routing.post("/finditem", findProduct)
 
-    routing.post("/addcart",authMiddleware, addcart)
+    routing.get("/addcart",authMiddleware, addcart)
 
 module.exports = routing;
